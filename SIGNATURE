@@ -1,0 +1,36 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 cd35735d2dc15362867faaec8bc65b03f1737365 INSTALL
+SHA1 3fd66c56df9037abe3654f6d1f8ec11170280c92 LICENSE
+SHA1 eac64f791a8d9905bf1cc273cd128c6790e3a801 MANIFEST
+SHA1 be889b119ff9c4bd685f9c7f3cb5a40a05291fbe META.json
+SHA1 dd808449ac033931499ace6a0d2914bd7eea2693 META.yml
+SHA1 f10e0fab0681ed945e5537ddbcb6dafc3d4fd2b9 Makefile.PL
+SHA1 2214dca332d849052f22022ae40673c3eb922c06 README.md
+SHA1 c3f6a27a203abf2d61249dc95bb5f5d4225e84d3 bin/fkit
+SHA1 d7434f6d170400e892a8dcc193ad053a95a7419e dist.ini
+SHA1 b46ba55106e3a95da141d2b9e380e6f38b9b3ebb examples/foo.kit/kit.kv
+SHA1 6ed20d00c4dcd89be31a02410b552254b818751d lib/File/Kit.pm
+SHA1 fa45d6e6ab1cd421349dea4ef527bfd5cdc8a09e t/author-critic.t
+SHA1 dc3eefcab3399f9a70861c332bb4a81ddcbb45e4 t/release-pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAlOely4ACgkQ9IHYOgPo3G1iCQCeJ+jcYLsExxmpnnSFooF3g5nB
+j1MAoKULVjHEqw/+CsyWW4j6vlSuqQYU
+=98MF
+-----END PGP SIGNATURE-----
